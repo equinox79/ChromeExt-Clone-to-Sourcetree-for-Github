@@ -1,5 +1,6 @@
 {
     "name": "Clone to Sourcetree for Github",
+    "description" : "It is an extension to be displayed in the github "Clone to Sourcetree" button.",
     "version": "0.0.1",
     "manifest_version": 2,
     "description": "Show 'Clone to Sourcetree' Button on Github.",

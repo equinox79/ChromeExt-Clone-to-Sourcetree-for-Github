@@ -1,13 +1,17 @@
 {
-    "name": "Clone in Sourcetree for Github",
+    "name": "Clone to Sourcetree for Github",
     "version": "0.0.1",
-    "manifest_version": 1,
-    "description": "Show 'Clone in Sourcetree' Button on Github.",
+    "manifest_version": 2,
+    "description": "Show 'Clone to Sourcetree' Button on Github.",
+    "web_accessible_resources" : [
+      "vendor/js/jquery-1.9.1.min.js",
+      "vendor/js/jquery.min.map"
+    ],
     "content_scripts": [
         {
-          "matches": ["https://github.com/*"],
-          "js": ["vendor/js/jquery-1.9.1.min.js", "vendor/js/underscore-min.js", "js/script.js"],
-          "run_at": "document_start"
+          "matches": ["https://github.com/*/*"],
+          "js": ["vendor/js/jquery-1.9.1.min.js", "js/script.js"],
+          "run_at": "document_idle"
         }
     ]
 }

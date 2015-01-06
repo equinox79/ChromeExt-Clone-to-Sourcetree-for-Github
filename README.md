@@ -15,8 +15,8 @@ License
 MIT
 
 
-Author
+Authors
 ----
-@equinox79
-@omgmog
+[@equinox79](https://github.com/equinox79)
+[@omgmog](https://github.com/omgmog)
 

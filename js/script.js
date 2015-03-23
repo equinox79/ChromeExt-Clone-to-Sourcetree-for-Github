@@ -25,7 +25,7 @@ function addCloneButton(elm, proto, cloneUrl) {
         $('<a>').attr({
             'href' : stUri,
             'data-url' : stUri,
-            'class' : 'minibutton sidebar-button js-conduit-rewrite-url',
+            'class' : 'btn btn-sm sidebar-button',
         }).append(
             $('<span>', {'class': 'octicon octicon-device-desktop'}),
             $('<span>').text(' Clone (' + proto + ')')

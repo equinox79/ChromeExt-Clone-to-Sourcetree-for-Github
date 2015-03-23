@@ -1,23 +1,13 @@
-GithubにSourceTreeでCloneするボタンを出すGoogle Chrome拡張
+GitHub "Clone in SourceTree" button for Google Chrome
 ========================================
 
-githubでもボタンひとつでSourceTreeにクローン出来ます。
+This is an extension that adds "Clone (ssh)" and "Clone (http)" buttons to open a repository in SourceTree.
 
+Derived from the [extension by equinox79](https://github.com/equinox79/ChromeExt-Clone-to-Sourcetree-for-Github)
 
-動作イメージ
+Preview
 ----
-![動作イメージ](http://farm3.staticflickr.com/2820/10629015693_8655be6e79_o.jpg)
-
-
-INSTALL
-----
-https://chrome.google.com/webstore/detail/clone-to-sourcetree-butto/ebglgbilpccfljajcocchgpaddgapaoa
-
-QA
-----
-Q.コピペすればいいのでは？
-
-A.はい、、、そうです、、、
+![preview](http://i.imgur.com/UMEX6cd.png)
 
 
 License
@@ -25,8 +15,8 @@ License
 MIT
 
 
-Author
+Authors
 ----
-@equinox79
-
+[@equinox79](https://github.com/equinox79)
+[@omgmog](https://github.com/omgmog)
 
